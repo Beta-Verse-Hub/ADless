@@ -1,6 +1,6 @@
 {
     "name": "ADless",
-    "description": "ADless is a simple browser extension that removes those ads from web pages which are from google ad services and doubleclick.",
+    "description": "ADless is a simple browser extension that removes those ads from web pages which are from googleadservices.com, adservice.google.com, doubleclick.net, adsterra.com, adzerk.net, openx.com, inmobi.com, tyroo.com, collectcent.com, affle.com, pubmatic.com, adpushup.com, adnimation.com and adsterra.com.",
     "version": "1.0.0",
     "manifest_version": 3,
     "permissions": [
