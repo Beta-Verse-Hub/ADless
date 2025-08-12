@@ -3,7 +3,7 @@ ADless is a simple browser extension that removes those ads from web pages which
 
 ### Installation
 
-1. Download the extension from [here](https://github.com/ADless/releases/latest).
+1. Download the extension from [here](https://github.com/Beta-Verse-Hub/ADless/releases/latest).
 2. Install the zip file.
 3. Extract the zip file.
 4. Open the browser and click on the extension icon.
