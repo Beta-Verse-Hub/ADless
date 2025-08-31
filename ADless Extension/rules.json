@@ -1,119 +1,2054 @@
 [
-  {
-    "id": 1,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*doubleclick.net*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*doubleclick.net*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*googleadservices.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*adservice.google.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*adzerk.net*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*openx.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*inmobi.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*tyroo.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*collectcent.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*affle.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 10,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*pubmatic.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 11,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*adpushup.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*adnimation.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*adsterra.com*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*d10ce3z4vbhcdd.cloudfront.net*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 15,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+        "urlFilter": "*d10lumateci472.cloudfront.net*",
+        "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d10lv7w3g0jvk9.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d10nkw6w2k1o10.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 18,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d10wfab8zt419p.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 19,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d10zmv6hrj5cx1.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 20,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d114isgihvajcp.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 21,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1180od816jent.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 22,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1198dzygjftam.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 23,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11enq2rymy0yl.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 24,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11hjbdxxtogg5.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 25,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11kp34sgosvfa.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 26,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11p7gi4d9x2s0.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 27,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11qytb9x1vnrm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 28,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11tybz5ul8vel.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 29,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d11zevc9a5598r.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 30,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d126kahie2ogx0.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 31,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d127s3e8wcl3q6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 32,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12bql71awc8k.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 33,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12czbu0tltgqq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 34,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12dky1jzngacn.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 35,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12e9f83wyj0ww.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 36,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12t7h1bsbq1cs.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 37,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12tu1kocp8e8u.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 38,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12ylqdkzgcup5.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 39,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d12zgccgt6pwjz.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 40,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d133y3h5r255gq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 41,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13gni3sfor862.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 42,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13j11nqjt0s84.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 43,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13k7prax1yi04.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 44,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13pxqgp3ixdbh.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 45,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13r2gmqlqb3hr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 46,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13uyjvmsvkesh.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 47,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d13vul5n9pqibl.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 48,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d140sbu1b1m3h0.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 49,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d141wsrw9m4as6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 50,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d142i1hxvwe38g.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 51,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d145ghnzqbsasr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 52,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d147t1kg3swfdd.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+        {
+        "id": 53,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d14821r0t3377v.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 54,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d149mkdvjofx4v.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 55,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d14l1tkufmtp1z.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 56,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d14osandwrs90r.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 57,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d14x46ho6sn9yf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 58,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d14zhsq5aop7ap.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 59,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d154nw1c88j0q6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 60,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15bcy38hlba76.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 61,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15gt9gwxw5wu0.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 62,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15jg7068qz6nm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 63,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15kdpgjg3unno.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 64,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15kuuu3jqrln7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 65,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15mt77nzagpnx.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 66,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15skjf5hy9xr6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 67,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d15yg5thi9b6xv.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 68,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d162nnmwf9bggr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 69,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d16saj1xvba76n.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 70,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d16sobzswqonxq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 71,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d175dtblugd1dn.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 72,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d17757b88bjr2y.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 73,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d17c5vf4t6okfg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 74,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d17razj7klcrmv.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 75,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d183xvcith22ty.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 76,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1856n6bep9gel.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 77,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d185vdnhi9xfbl.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 78,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d188elxamt3utn.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 79,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d188m5xxcpvuue.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 80,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18b5y9gp0lr93.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 81,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18e74vjvmvza1.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 82,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18g6t7whf8ejf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 83,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18hqfm1ev805k.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 84,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18kg2zy9x3t96.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 85,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18mealirgdbbz.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 86,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18myvrsrzjrd7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 87,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18ql5xgy7gz3p.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 88,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d18t35yyry2k49.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 89,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d192g7g8iuw79c.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 90,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d192r5l88wrng7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 91,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d199kwgcer5a6q.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 92,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d19a04d0igndnt.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 93,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d19bpqj0yivlb3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 94,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d19diizb3qce6y.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 95,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d19gkl2iaav80x.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 96,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d19y03yc9s7c1c.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 97,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1a3jb5hjny5s4.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 98,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aa9f6zukqylf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 99,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ac2du043ydir.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 100,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aezk8tun0dhm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 101,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aiciyg0qwvvr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 102,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ap9gbbf77h85.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 103,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1appgm50chwbg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 104,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aqvw7cn4ydzo.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 105,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aukpqf83rqhe.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 106,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ayv3a7nyno3a.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 107,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1az618or4kzj8.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 108,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1aznprfp4xena.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 109,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1azpphj80lavy.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 110,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1b240xv9h0q8y.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 111,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1b499kr4qnas6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 112,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1b7aq9bn3uykv.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 113,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1b9b1cxai2c03.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 114,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bad9ankyq5eg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 115,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bci271z7i5pg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 116,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1betjlqogdr97.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 117,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bf1sb7ks8ojo.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 118,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bi6hxlc51jjw.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 119,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bioqbsunwnrb.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 120,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bkis4ydqgspg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 121,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1bxkgbbc428vi.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 122,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1cg2aopojxanm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 123,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1clmik8la8v65.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 124,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1crfzlys5jsn1.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 125,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1crt12zco2cvf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 126,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1csp7vj6qqoa6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 127,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1d38a26hlyhe3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 128,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1d7hwtv2l91pm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 129,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1dcnte8mfzkpv.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 130,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1dh1gvx7p0imm.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 131,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1diqetif5itzx.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 132,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1djrodi2reo2w.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 133,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1dtl43j681tft.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 134,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1e28xq8vu3baf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 135,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1e3vw6pz2ty1m.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 136,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1e51ovcxdu97v.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 137,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1e9rtdi67kart.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 138,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ebha2k07asm5.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 139,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1eeht7p8f5lpk.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+        {
+        "id": 140,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1eknpz7w55flg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 141,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1err2upj040z.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 142,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1esebcdm6wx7j.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 143,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ev4o49j4zqc3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 144,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ev866ubw90c6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 145,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1eyw3m16hfg9c.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 146,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ezlc9vy4yc7g.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 147,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f05vr3sjsuy7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 148,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f52ha44xvggk.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 149,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f5r3d462eit5.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 150,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f7vr2umogk27.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 151,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f9tkqiyb5a97.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 152,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1f9x963ud6u7a.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 153,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1fs2ef81chg3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 154,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ftkft7iiluq6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 155,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1g2nud28z4vph.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 156,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1g4493j0tcwvt.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 157,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1g4xgvlcsj49g.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 158,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1g8forfjnu2jh.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 159,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1gof7ug63b1q4.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 160,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1gpi088t70qaf.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 161,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1h2plpxnhapt.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 162,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ha41wacubcnb.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 163,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1hgdmbgioknig.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 164,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1hh76tqcottqz.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 165,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1hnmxbg6rp2o6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 166,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1hogxc58mhzo9.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 167,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1i11ea1m0er9t.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 168,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1i1d9hx0883rq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 169,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1i3h541wbnrfi.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 170,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1i4rchxg0yau7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 171,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1i76h1c9mme1m.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 172,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ieffz9zqrn09.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 173,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1igvjcl1gjs62.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 174,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ilwohzbe4ao6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 175,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1iy4wgzi9qdu7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 176,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1iz0b4hmb7usn.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 177,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j1m9awq6n3x3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 178,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j2jv7bvcsxqg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 179,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j47wsepxe9u2.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 180,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j6limf657foe.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 181,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j818d3wapogd.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 182,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1j9qsxe04m2ki.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 183,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1jcj9gy98l90g.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 184,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1jd9usa22o1l7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 185,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1jnvfp2m6fzvq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 186,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1juimniehopp3.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 187,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1jwpd11ofhd5g.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 188,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1k8mqc61fowi.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 189,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1kfcch39h5g0x.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 190,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1krgg9nh7vzxg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 191,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ks8roequxbwa.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 192,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ktmtailsv07c.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 193,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1kttpj1t6674w.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 194,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1kwkwcfmhtljq.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 195,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1kx6hl0p7bemr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 196,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1kzm6rtbvkdln.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 197,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1l906mtvq85kd.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 198,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1lihuem8ojqxz.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 199,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1lky2ntb9ztpd.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 200,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1lnjzqqshwcwg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 201,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1lo4oi08ke2ex.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 202,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1lxhc4jvstzrp.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 203,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mahxde95gw5l.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 204,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mar6i7bkj1lr.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 205,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mbgf0ge24riu.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 206,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mbihpm2gncx7.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 207,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mcwmzol446xa.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 208,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1mikxzr3lp4va.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 209,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1my7gmbyaxdyn.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 210,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1myn4ixnn41tz.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 211,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1n1ppeppre6d4.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 212,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1n3aexzs37q4s.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 213,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1n3tk65esqc4k.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 214,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1n5jb3yqcxwp.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 215,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1n6jx7iu0qib6.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 216,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1ndpste0fy3id.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 217,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nkvehlw5hmj4.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 218,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nmxiiewlx627.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 219,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nnhbi4g0kj5.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 220,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1now6cui1se29.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 221,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nr5af9lc58ok.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 222,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nssfq3xl2t6b.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 223,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nubxdgom3wqt.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 224,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nv2vx70p2ijo.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 225,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1nx2jii03b4ju.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 226,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1o1guzowlqlts.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 227,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1of5w8unlzqtg.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
+    },
+    {
+        "id": 228,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "*d1okyw2ay5msiy.cloudfront.net*",
+            "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest", "image", "media", "stylesheet", "font"]
+        }
     }
-  },
-  {
-    "id": 2,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*googleadservices.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 3,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*adservice.google.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 4,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*adzerk.net*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 5,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*openx.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 6,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*inmobi.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 7,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*tyroo.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 8,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*collectcent.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 9,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*affle.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 10,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*pubmatic.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 11,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*adpushup.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 12,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*adnimation.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  },
-  {
-    "id": 13,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*adsterra.com*",
-      "resourceTypes": ["main_frame", "sub_frame", "script", "xmlhttprequest"]
-    }
-  }
 ]

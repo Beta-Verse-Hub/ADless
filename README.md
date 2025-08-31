@@ -1,5 +1,5 @@
 ### ADless
-ADless is a simple browser extension that removes those ads from web pages which are from googleadservices.com, adservice.google.com, doubleclick.net, adsterra.com, adzerk.net, openx.com, inmobi.com, tyroo.com, collectcent.com, affle.com, pubmatic.com, adpushup.com, adnimation.com and adsterra.com.
+ADless is a simple browser extension that removes those ads from web pages which are from googleadservices.com, adservice.google.com, doubleclick.net, adsterra.com, adzerk.net, openx.com, inmobi.com, tyroo.com, collectcent.com, affle.com, pubmatic.com, adpushup.com, adnimation.com, adsterra.com and cloudfront.net.
 
 ### Installation
 
