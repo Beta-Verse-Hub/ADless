@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['ADless Extension\\new_rules_generator.py'],
+    ['Python Source Code\\new_rules_generator.py'],
     pathex=[],
     binaries=[],
     datas=[],

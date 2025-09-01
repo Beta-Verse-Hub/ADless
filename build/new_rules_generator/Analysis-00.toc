@@ -1,7 +1,7 @@
-(['C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\ADless '
-  'Extension\\new_rules_generator.py'],
- ['C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\ADless '
-  'Extension'],
+(['C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\Python Source '
+  'Code\\new_rules_generator.py'],
+ ['C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\Python Source '
+  'Code'],
  [],
  [('C:\\Users\\DELL\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\numpy\\_pyinstaller',
    0),
@@ -23,8 +23,8 @@
    'C:\\Users\\DELL\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('new_rules_generator',
-   'C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\ADless '
-   'Extension\\new_rules_generator.py',
+   'C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\Python Source '
+   'Code\\new_rules_generator.py',
    'PYSOURCE')],
  [('inspect',
    'C:\\Program '
@@ -418,17 +418,9 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\ast.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Program '
-   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('subprocess',
    'C:\\Program '
@@ -437,6 +429,14 @@
   ('signal',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\signal.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\_py_abc.py',
    'PYMODULE')],
  [('python312.dll',
    'C:\\Program '

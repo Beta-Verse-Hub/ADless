@@ -64,8 +64,8 @@
    'C:\\Users\\DELL\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('new_rules_generator',
-   'C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\ADless '
-   'Extension\\new_rules_generator.py',
+   'C:\\Users\\DELL\\OneDrive\\Desktop\\WebProjects\\AD Blocker\\Python Source '
+   'Code\\new_rules_generator.py',
    'PYSOURCE'),
   ('python312.dll',
    'C:\\Program '
@@ -114,7 +114,7 @@
  [],
  False,
  False,
- 1756653988,
+ 1756657138,
  [('run.exe',
    'C:\\Users\\DELL\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

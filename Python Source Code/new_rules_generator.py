@@ -1,6 +1,7 @@
 latest_rule_id = int(input("Enter the latest rule id: "))
 link = input("Enter the link: ")
-rule = ""
+rule = """,
+"""
 
 while link != "end":
 
